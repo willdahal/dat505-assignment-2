@@ -1,0 +1,20 @@
+[
+  {
+    "timestamp": "2026-11-05T17:15:41",
+    "category": "UNAUTH_ADVERTISEMENT",
+    "severity": "HIGH",
+    "src": "172.18.0.66",
+    "dst": "172.18.0.2",
+    "detail": "Unsolicited UDP/631 printer announcement (normal discovery to the server is TCP)",
+    "packet": "2 3 ipp://172.18.0.66:8632/printers/EvilPrinter \"lab\" \"rogue\""
+  },
+  {
+    "timestamp": "2026-11-05T17:15:41",
+    "category": "INTRUDER_ALERT",
+    "severity": "HIGH",
+    "src": "172.18.0.66",
+    "dst": "172.18.0.2",
+    "detail": "Unauthorized host 172.18.0.66 is advertising a printer - possible attacker (not a known lab host)",
+    "packet": "2 3 ipp://172.18.0.66:8632/printers/EvilPrinter \"lab\" \"rogue\""
+  }
+]

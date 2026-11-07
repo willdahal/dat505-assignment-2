@@ -1,0 +1,11 @@
+[
+  {
+    "timestamp": "2026-11-05T18:07:34",
+    "category": "UNAUTH_ADVERTISEMENT",
+    "severity": "HIGH",
+    "src": "172.18.0.1",
+    "dst": "172.18.0.2",
+    "detail": "Unsolicited UDP/631 printer announcement (normal discovery to the server is TCP)",
+    "packet": "2 3 ipp://172.18.0.1:8632/printers/EvilPrinter \"lab\" \"rogue printer\""
+  }
+]

@@ -1,0 +1,4 @@
+# Ethical Hacking Assignment 2 - CUPS CVE-2024-47176/47076/47175
+# Python dependencies for cups_attack.py and cups_detector.py
+
+scapy>=2.5.0
